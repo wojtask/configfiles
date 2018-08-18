@@ -6,7 +6,8 @@
     excludesfile = ~/.git/ignore-global
     quotepath = false
     trustctime = false
-    pager = sh -c '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
+# uncomment when diff-highligh is available in the system
+#    pager = sh -c '/usr/local/share/git-core/contrib/diff-highlight/diff-highlight | less -r' -
 
 [merge]
     tool = splice
@@ -110,9 +111,9 @@
     ua = update-all
     b = !hub browse
 
-[github]
-    user = wojtask
-    token = d51bc5c8a2fc84d68e8a5137107279a78a9fe81c
+#[github]
+#    user = wojtask
+#    token = *******
 
 [url "https://github.com/"]
     insteadOf = gh
